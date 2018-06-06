@@ -6,7 +6,8 @@ namespace booch
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Public\TestFolder\WriteLines2.txt");
+
         }
     }
 }
